@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="1dp">
+
+    <View
+        android:id="@+id/globoRebut"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#FF0000"
+        app:layout_constraintBottom_toBottomOf="@+id/missatgeRebut"
+        app:layout_constraintEnd_toEndOf="@+id/missatgeRebut"
+        app:layout_constraintStart_toStartOf="@+id/missatgeRebut"
+        app:layout_constraintTop_toTopOf="@+id/missatgeRebut" />
+
+    <TextView
+        android:id="@+id/missatgeRebut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="exemple"
+        android:padding="5dp"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/globoEnviat"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#021BFD"
+        app:layout_constraintBottom_toBottomOf="@+id/missatgeEnviat"
+        app:layout_constraintEnd_toEndOf="@+id/missatgeEnviat"
+        app:layout_constraintStart_toStartOf="@+id/missatgeEnviat"
+        app:layout_constraintTop_toTopOf="@+id/missatgeEnviat" />
+
+    <TextView
+        android:id="@+id/missatgeEnviat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="exemple"
+        android:padding="5dp"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
